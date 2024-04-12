@@ -7,6 +7,7 @@ const char kWindowTitle[] = "LC1B_13_コムロ_リュウヘイ";
 
 static const int kColumnWidth = 60;
 
+// 表示
 void VectorScreenPrintf(int x, int y, const Vector3& vector, const char* label) {
 
 	Novice::ScreenPrintf(x, y, "%3.2f", vector.x);
